@@ -75,6 +75,7 @@
             btnStandard.TabIndex = 2;
             btnStandard.Text = "Standard";
             btnStandard.UseVisualStyleBackColor = true;
+            btnStandard.Click += btnStandard_Click;
             // 
             // btnMetric
             // 
@@ -84,6 +85,7 @@
             btnMetric.TabIndex = 3;
             btnMetric.Text = "Metric";
             btnMetric.UseVisualStyleBackColor = true;
+            btnMetric.Click += btnMetric_Click;
             // 
             // label2
             // 
